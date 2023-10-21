@@ -1,0 +1,43 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "target": "esnext",
+    "useDefineForClassFields": true,
+    "allowSyntheticDefaultImports": true,
+    "composite": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "strict": true,
+    "jsx": "preserve",
+    "sourceMap": false,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "lib": ["esnext", "dom"],
+    "allowImportingTsExtensions": true,
+    "noEmit": true,
+    "types": [
+      "node",
+      "vuetify"
+    ],
+    "paths": {
+      "@/*": ["src/*"],
+      "Styles": ["src/styles"],
+      "Types/*": ["src/types/*"],
+      "Views/*": ["src/views/*"],
+      "Assets/*": ["src/assets/*"],
+      "Stores/*": ["src/stores/*"],
+      "Router/*": ["src/router/*"],
+      "Layouts/*": ["src/layouts/*"],
+      "Plugins/*": ["src/plugins/*"],
+      "Constant/*": ["src/constant/*"],
+      "Components/*": ["src/components/*"],
+    },
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.d.ts",
+    "src/**/*.tsx",
+    "src/**/*.vue",
+    "vite.config.ts"
+  ],
+}

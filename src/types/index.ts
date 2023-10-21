@@ -1,0 +1,1 @@
+export type ValidateSchema = string | boolean

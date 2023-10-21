@@ -1,0 +1,44 @@
+.login {
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center; 
+  background-image: url(Assets/ThankZ_Social.png);
+
+  .login__container {
+    width: 100%;
+    height: 100%;
+  }
+
+  .login__content {
+    width: 100%;
+    height: 100%;
+    min-width: 300px;
+  }
+
+  .login__card {
+    top: 25%;
+    width: 50%;
+    position: fixed;
+    min-width: 300px;
+    max-width: 800px;
+    // min-height: 50%;
+    border-radius: 8px;
+  }
+
+  .login__tabs {
+    .tabs__tab {
+      width: var(--max-tab);
+    }
+  }
+
+  .login__tab-content {
+    margin: 30px auto;
+    padding: 0px 10px;
+  }
+
+  .login__form-container {
+    text-align: center;
+  }
+}
